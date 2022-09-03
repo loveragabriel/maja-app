@@ -4,6 +4,8 @@ import { PrincipalImg } from '../Component/PrincipalImg'
 import { Profile } from '../Component/Profile'
 import { Footer } from '../Component/Footer'
 import { ProfileDescription } from '../Component/ProfileDescription'
+import { Form } from '../Component/Form'
+import { CardServices } from '../Component/CardServices'
 export const Home = () => {
   return (
     <div>
@@ -11,8 +13,10 @@ export const Home = () => {
         <Profile></Profile>
         <ProfileDescription></ProfileDescription>
         <PrincipalImg></PrincipalImg>
-        
+        <CardServices></CardServices>
+        <Form></Form>
         <Footer></Footer>
+        
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import './App.css';
+import { Contacto } from './Component/Form';
 import { Home } from './Pages/Home';
 
 function App() {

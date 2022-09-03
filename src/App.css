@@ -41,7 +41,7 @@ nav{
     padding: 5% 5%;
     background-color: black;
     z-index: 0;
-    opacity: 0.8
+    opacity: 0.8; 
 }
 .profile-container{
     background-color: aqua;
@@ -71,18 +71,25 @@ nav{
 
 
 @media only screen and (min-width: 400px) {
-    .profile-container img{
+    .profile-container img , .home-img{
         width: 100vw;
         height: 70vh;
         background-size: cover;
     }
+    .description-text, .profile-description{
+        text-align: justify;
+        font-size: 1em;
+    }
   }
 
   @media only screen and (min-width: 800px) {
-    .profile-container img{
+    .profile-container img , .home-img{
         width: 100vw;
         height: 100vh;
         background-size: cover;
+    }
+    .description-text, .profile-description{
+        font-size: 2em;
     }
   }
 
@@ -103,7 +110,6 @@ nav{
 
 .menu-container{
     position: absolute;
-    background-color: rgb(6, 6, 6);
     height: 15vh;
     padding: 20px;
     margin: 1px;
@@ -132,4 +138,16 @@ li{
 .copy-right{
     background-color: green;
     font-size: 10px;
+}
+
+.form-container{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label{
+    width: 10%;
+   margin: 0.5em;
+   text-decoration: none;
 }
