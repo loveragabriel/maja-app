@@ -16,7 +16,6 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding: 5px;
-    background-color: black;
     opacity: 0.8;
     box-shadow: 5px 5px 5px white;
 }
@@ -37,16 +36,23 @@ nav{
 .text-home-div{
     position: absolute;
     top: 15em;
+    left: 3em;
+    border-radius: 2px;
     padding: 5% 5%;
     background-color: black;
     z-index: 0;
-    opacity: 0.8;
-    font-size: 1em;
+    opacity: 0.8
 }
 .profile-container{
     background-color: aqua;
     display: block;
     color: black;
+}
+
+.profile-description{
+    padding: 2em;
+    text-align: justify;
+    line-height: 1.5em;
 }
 
 
@@ -105,9 +111,9 @@ nav{
     top: 42px;
     text-decoration: none;
     color:  white;
-    z-index: 2;
-    transition: top 0.3s;
+    z-index: 2;   
 }
+
 
 li{
     list-style: none;
