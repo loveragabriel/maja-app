@@ -7,8 +7,9 @@ export const Home = () => {
   return (
     <div>
         <NavBar></NavBar>
-        <PrincipalImg></PrincipalImg>
         <Profile></Profile>
+        <PrincipalImg></PrincipalImg>
+        
         <Footer></Footer>
     </div>
   )
