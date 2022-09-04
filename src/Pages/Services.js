@@ -2,6 +2,7 @@ import React from 'react'
 import { Footer } from '../Component/Footer'
 import { Form } from '../Component/Form'
 import { NavBar } from '../Component/NavBar'
+import { Up } from '../Component/Up'
 
 export const Services = () => {
   return (
@@ -30,6 +31,7 @@ export const Services = () => {
         </div>
         <Form></Form>
         <Footer></Footer>
+        <Up></Up>
     
     </div>
   )

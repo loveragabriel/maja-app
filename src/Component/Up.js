@@ -3,9 +3,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleUp } from '@fortawesome/free-solid-svg-icons'
 
 export const Up = () => {
+
+    const goToTop=()=>{window.scroll({
+      top: 0, 
+      left: 0, 
+      behavior: 'smooth' 
+     });}
+
   return (
     <div className='faUp'>
-    <FontAwesomeIcon icon={faCircleUp} />
+    <FontAwesomeIcon icon={faCircleUp}  onClick={goToTop}/>
     </div>
   )
 }

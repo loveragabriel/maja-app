@@ -120,13 +120,15 @@ nav{
     text-decoration: none;
     color:  white;
     z-index: 2;   
-    background-color: blue;
+    background-color: grey;
 }
 
 
-li{
+a:link, li{
     list-style: none;
+    text-decoration: none;
 }
+
 
 .description-text{
     padding: 10%;
@@ -144,10 +146,13 @@ li{
 }
 
 .form-container{
+    background-color: #191019;
+    margin: 1em;
+    border-radius: 5px;
     padding: 2em;
     display: flex;
     flex-direction: column;
-
+    color: black;
 }
 
 .form-container label{
@@ -155,6 +160,19 @@ li{
    margin: 0.5em;
    text-decoration: none;
    color: blacks;
+}
+
+input{
+    color: black;
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+.text-area{
+    width: 100wv;
+    height: 5em;
+    top: 0;
+
 }
 
 /* Page Services */
