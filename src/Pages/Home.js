@@ -6,7 +6,7 @@ import { Footer } from '../Component/Footer'
 import { ProfileDescription } from '../Component/ProfileDescription'
 import { Form } from '../Component/Form'
 import { CardServices } from '../Component/CardServices'
-import {Menu} from '../Component/Menu'
+import { Up } from '../Component/Up'
 export const Home = () => {
   return (
     <div>
@@ -17,6 +17,7 @@ export const Home = () => {
         <CardServices></CardServices>
         <Form></Form>
         <Footer></Footer>
+        <Up></Up>
         
     </div>
   )

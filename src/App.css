@@ -175,3 +175,12 @@ li{
     border-radius: 5px;
 }
 
+/* Components */
+.faUp{
+    position: fixed;
+    right: 1px;
+    bottom:0;
+    opacity: 0.2;
+    margin: 1em;
+
+}

@@ -6,17 +6,17 @@ import { Link } from 'react-router-dom'
 
 export const CardServices = () => {
   return (
-    <div>
+    <div className='service-component'>
         <div className='card-container'>
             <div>
-                Información adicional
+                Detalle de mis especializadas
             </div>
             <ul>
-                <Link to='Services'>Linmpieza</Link>
-                <li>Protesis</li>
-                <li>Arreglos</li>
-                <li>Protesis</li>
-                <li>Protesis</li>
+                <li><Link to='Services'>Limpieza</Link></li>
+                <li><Link to='Services'>Protesis</Link></li>
+                <li><Link to='Services'>Arreglos</Link></li>
+                <li><Link to='Services'>Conductos</Link></li>
+                <li><Link to='Services'>Linmpieza</Link></li>
             </ul>
         </div>
     </div>
