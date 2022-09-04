@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faBars } from '@fortawesome/free-solid-svg-icons'
-import { Menu } from './Menu'
+import { Menu } from './Menu';
 
 export const NavBar = () => {
 
-  const [displayMenu, setDisplayMenu] = useState(true)
+   const [show,setShow] = useState(false);
 
   return (
     <div>
@@ -18,10 +18,9 @@ export const NavBar = () => {
             <p>Odontología General</p>
         </div>
         <div>
-        <FontAwesomeIcon icon={faBars} onClick={()=>{setDisplayMenu(!displayMenu)}}/>
-        {!displayMenu && <Menu></Menu>}
+        <FontAwesomeIcon icon={faBars} onClick={()=>{setShow(!show)}}/>
+        {show && <Menu></Menu> }
         </div>
-
         </nav>
     </div>
   )

@@ -6,6 +6,7 @@ import { Footer } from '../Component/Footer'
 import { ProfileDescription } from '../Component/ProfileDescription'
 import { Form } from '../Component/Form'
 import { CardServices } from '../Component/CardServices'
+import {Menu} from '../Component/Menu'
 export const Home = () => {
   return (
     <div>
