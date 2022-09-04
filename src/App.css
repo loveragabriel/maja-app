@@ -10,8 +10,6 @@ body{    background-color: var(--main-bg-color);}
     --main-bg-color: #191919;
 }
 
-
-
 nav{
     display: flex;
     justify-content: space-around;
@@ -145,6 +143,11 @@ a:link, li{
     font-size: 10px;
 }
 
+/* Form Component  */
+select{
+    color: black;
+}
+
 .form-container{
     background-color: #191019;
     margin: 1em;
@@ -168,12 +171,15 @@ input{
     padding: 0.5em;
     border-radius: 5px;
 }
-.text-area{
-    width: 100wv;
-    height: 5em;
-    top: 0;
 
-}
+.text-area {
+    resize:vertical;
+    overflow: scroll;
+    max-height: 20px;
+
+ }
+
+
 
 /* Page Services */
 .cards{
