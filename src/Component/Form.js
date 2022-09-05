@@ -6,7 +6,7 @@ export const Form = () => {
         name:'',
         email:'',
         number: '',
-        seletOption: '',
+        service: '',
         text:''
     });
 
@@ -14,7 +14,6 @@ export const Form = () => {
         SetFormData({
             ...formData,
             [e.target.name]:e.target.value
-
         })
 
        
@@ -22,14 +21,10 @@ export const Form = () => {
     }
 
     const sendEmail=(e)=>{
-
+        e.preventDefault();
         emailjs.sendForm('service_thbluz2','template_6y201bt',e.target,'rMXRUT4nOtufEUTg2')
         .then(response => console.log(response))
         .catch(error=>console.log(error));
-
-
-        e.preventDefault();
-        console.log(formData.name,formData.email)
         alert('Consulta enviada correctamente')
         e.target.reset();
     }
@@ -38,21 +33,21 @@ export const Form = () => {
     return (
         <div>
             <form className='form-container' onSubmit={sendEmail}>
-                <h3>Enviame tu consulta</h3>
+                <h3 className='form-title'>Enviame tu consulta</h3>
                 <label>
                     Nombre:
-                    <input type="text" name='name' placeholder='Maria Alejandra'  onChange={handleInputChange} />
+                    <input type="text" name='name' placeholder='Maria Alejandra' required onChange={handleInputChange} />
                 </label>
                 <label>
                     Correo:
-                    <input type="email" name='email' placeholder='correo@gmail.com' onChange={handleInputChange} />
+                    <input type="email" name='email' placeholder='correo@gmail.com' required onChange={handleInputChange} />
                 </label>
                 <label>
                     Tel:
-                    <input type="tel" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" name='number' maxLength='14' placeholder='011 1111 2222' onChange={handleInputChange} />
+                    <input type="tel"  placeholder='1122334455' name='number' required maxLength='10'  onChange={handleInputChange} />
                 </label>
                 <label> Asunto
-                    <select name='seletOption' onChange={handleInputChange}>
+                    <select name='service' required onChange={handleInputChange}>
                         <option>Limpieza</option>
                         <option>Protesis</option>
                         <option>Control</option>
@@ -61,7 +56,7 @@ export const Form = () => {
                 </label>
                 <label>
                     Consulta:
-                    <input className='text-area' type="textarea" name="text" placeholder='Consulta por servicio' onChange={handleInputChange} />
+                    <input className='text-area' type="textarea"  required name="text" placeholder='Consulta por servicio'  onChange={handleInputChange} />
                 </label>
                 <button type='submit'>Enviar</button>
             </form>

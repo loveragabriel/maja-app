@@ -9,7 +9,7 @@ export const CardServices = () => {
     <div className='service-component'>
         <div className='card-container'>
             <div>
-                Detalle de mis especializadas
+                <h3>Detalle de mis especializadas</h3>
             </div>
             <ul>
                 <li><Link to='Services'>Limpieza</Link></li>
