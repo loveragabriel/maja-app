@@ -1,16 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     color: white;
-
 }
-body{    background-color: var(--main-bg-color);}
+
+body {
+    background-color: var(--main-bg-color);
+}
 
 :root {
     --main-bg-color: #191919;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,21 +20,22 @@ nav{
     opacity: 0.8;
     box-shadow: 0.2px 0.5px 1px white;
 }
-.title-name{
+
+.title-name {
     font-size: 0.8em;
 }
 
-.title-name p{
+.title-name p {
     font-size: 0.6em;
 }
-
 
 .home-img {
     width: 100vw;
     height: 45vh;
-    background-size: cover;  
+    background-size: cover;
 }
-.text-home-div{
+
+.text-home-div {
     position: absolute;
     top: 15em;
     left: 3em;
@@ -40,59 +43,66 @@ nav{
     padding: 5% 5%;
     background-color: black;
     z-index: 0;
-    opacity: 0.8; 
+    opacity: 0.8;
 }
-.profile-container{
+
+.profile-container {
     background-color: aqua;
     display: block;
     color: black;
 }
 
-.profile-description{
+.profile-description {
     padding: 2em;
     text-align: justify;
     line-height: 1.5em;
 }
 
 
-.profile-container img{
+.profile-container img {
     width: 100vw;
     height: 40vh;
     background-size: cover;
 }
 
 @media only screen and (min-width: 280px) {
-    .text-home-div{
+    .text-home-div {
         font-size: 0.8em;
     }
-  }
-
-
+}
 
 @media only screen and (min-width: 400px) {
-    .profile-container img , .home-img{
+
+    .profile-container img,
+    .home-img {
         width: 100vw;
         height: 70vh;
         background-size: cover;
     }
-    .description-text, .profile-description{
+
+    .description-text,
+    .profile-description {
         text-align: justify;
         font-size: 1em;
     }
-  }
+}
 
-  @media only screen and (min-width: 800px) {
-    .profile-container img , .home-img{
+@media only screen and (min-width: 800px) {
+
+    .profile-container img,
+    .home-img {
         width: 100vw;
         height: 100vh;
         background-size: cover;
     }
-    .description-text, .profile-description{
+
+    .description-text,
+    .profile-description {
         font-size: 2em;
     }
-  }
+}
 
-.card-container{
+.card-container {
     padding: 20px;
     margin-top: 2em;
     display: flex;
@@ -103,11 +113,11 @@ nav{
     flex-direction: column;
 }
 
-.copy-right{
+.copy-right {
     text-align: center;
 }
 
-#menu-container{
+#menu-container {
     display: flex;
     position: absolute;
     height: 100vh;
@@ -116,41 +126,41 @@ nav{
     right: 0;
     top: 42px;
     text-decoration: none;
-    color:  white;
-    z-index: 2;   
+    color: white;
+    z-index: 2;
     background-color: grey;
 }
 
 
-a:link, li{
+a:link,
+li {
     list-style: none;
     text-decoration: none;
 }
 
-
-.description-text{
+.description-text {
     padding: 10%;
     margin-top: 0;
 }
 
-.card-container{
+.card-container {
     margin-top: 0;
     background-color: var(--main-bg-color);
 }
 
-.copy-right{
+.copy-right {
     background-color: rgb(61, 60, 60);
     font-size: 10px;
 }
 
 /* Form Component  */
-select{
+select {
 
     background-color: #191019;
     width: 60vw;
 }
 
-.form-container{
+.form-container {
     background-color: #191019;
     margin: 1em;
     border-radius: 5px;
@@ -160,23 +170,24 @@ select{
     color: black;
 }
 
-.form-container label, button{
+.form-container label,
+button {
     display: flex;
     flex-direction: column;
-   width: 100%;
-   margin: 0.5em;
-   text-decoration: none;
-   color: blacks;
+    width: 100%;
+    margin: 0.5em;
+    text-decoration: none;
+    color: blacks;
 }
 
-input{
+input {
     color: black;
     border: none;
     padding: 0.5em;
     border-radius: 5px;
 }
 
-button{
+button {
     background-color: #191019;
     display: flex;
     align-items: center;
@@ -185,23 +196,22 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     background-color: aliceblue;
     color: #191019;
 }
 
-h3{
+h3 {
     text-align: center;
 }
 
-
-
-
-
-
-
 /* Page Services */
-.cards{
+
+.services-title {
+    margin: 0.7em;
+}
+
+.cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -212,18 +222,21 @@ h3{
     padding: 0.5em;
 }
 
-.cards img{
+
+.cards img {
     object-fit: cover;
     width: 70vw;
     border-radius: 5px;
 }
 
 /* Components */
-.faUp{
+.faUp {
     position: fixed;
     right: 1px;
-    bottom:0;
+    bottom: 0;
     opacity: 0.2;
     margin: 1em;
 
 }
+
+/* About */
