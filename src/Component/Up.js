@@ -11,7 +11,7 @@ export const Up = () => {
      });}
 
   return (
-    <div className='faUp'>
+    <div className='position-fixed bottom-0 end-0 m-1'>
     <FontAwesomeIcon icon={faCircleUp}  onClick={goToTop}/>
     </div>
   )
