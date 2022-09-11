@@ -9,10 +9,8 @@ export const Services = () => {
   return (
     <div>
     <NavBar></NavBar>
-
-    <h3 className='services-title'>Servicios</h3>
+    <h3 className='text-center m-4'>Servicios</h3>
         <Cards></Cards>
-        <Form></Form>
         <Footer></Footer>
         <Up></Up>
   

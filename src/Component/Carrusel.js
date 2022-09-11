@@ -3,6 +3,7 @@ import React from 'react'
 export const Carrusel = () => {
   return (
     <div>
+    <h2 className='text-center'>Odontología General y Maxilofacial</h2>
     <div id="carouselExampleCaptions" className="carousel slide " data-bs-ride="false">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
