@@ -10,9 +10,9 @@ export const NavBar = () => {
 
   return (
     <div>
-          <nav class="navbar navbar-expand-lg bg-light d-sm-none d-lg-block">
+          <nav class="navbar navbar-expand-lg bg-dark  d-lg-block">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Dra. Maria Alejandra</a>
+    <Link  className='text-decoration-none' to='/'>Dra. Maria Alejandra </Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

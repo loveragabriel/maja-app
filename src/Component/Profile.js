@@ -6,6 +6,7 @@ export const Profile = () => {
         <div className='justify-content-center'>
             <img className='img-fluid text-center w-100'  src='https://cdn.pixabay.com/photo/2018/01/04/14/16/woman-3060784_960_720.jpg' alt=''></img>
             <div>
+            <p className='text-home-div   text-wrap'>Dra. Maria Alejandra</p>
             </div>        
         </div>
     </div>
