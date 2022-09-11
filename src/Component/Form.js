@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import emailjs from '@emailjs/browser';
+import { Up } from './Up';
 
 export const Form = () => {
     const [formData, SetFormData]= useState({
@@ -31,34 +32,37 @@ export const Form = () => {
     
 
     return (
-        <div>
+        <div className='p-5 text-center '>
             <form className='form-container' onSubmit={sendEmail}>
+            <div className='mb-3 row d-flex-block '>
                 <h3 className='form-title'>Enviame tu consulta</h3>
-                <label>
+                <label className='text-start p-2'>
                     Nombre:
-                    <input type="text" name='name' placeholder='Maria Alejandra' required onChange={handleInputChange} />
+                    <input className='form-control' type="text" name='name' placeholder='Maria Alejandra' required onChange={handleInputChange} />
                 </label>
-                <label>
+                <label className='text-start  p-2'>
                     Correo:
-                    <input type="email" name='email' placeholder='correo@gmail.com' required onChange={handleInputChange} />
+                    <input  className='form-control' type="email" name='email' placeholder='correo@gmail.com' required onChange={handleInputChange} />
                 </label>
-                <label>
+                <div id="emailHelp" className="form-text">Asegurate de escribir correctamente tu dirección de correo</div>
+                <label className='text-start  p-2'>
                     Tel:
-                    <input type="tel"  placeholder='1122334455' name='number' required maxLength='10'  onChange={handleInputChange} />
+                    <input  className='form-control' type="tel"  placeholder='1122334455' name='number' required maxLength='10'  onChange={handleInputChange} />
                 </label>
-                <label> Asunto
-                    <select name='service' required onChange={handleInputChange}>
+                <label className='text-start  p-2'> Asunto
+                    <select  className='form-control' name='service' required onChange={handleInputChange}>
                         <option>Limpieza</option>
                         <option>Protesis</option>
                         <option>Control</option>
                         <option>Placa</option>
                     </select>
                 </label>
-                <label>
+                <label className='text-start  p-2'>
                     Consulta:
-                    <input className='text-area' type="textarea"  required name="text" placeholder='Consulta por servicio'  onChange={handleInputChange} />
+                    <input className='form-control ' type="textarea"  required name="text" placeholder='Consulta por servicio'  onChange={handleInputChange} />
                 </label>
                 <button type='submit'>Enviar</button>
+                </div>
             </form>
         </div>
     )
