@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import emailjs from '@emailjs/browser';
 import { Up } from './Up';
 
+// agragar de donde me conoces 
 export const Form = () => {
     const [formData, SetFormData]= useState({
         name:'',
