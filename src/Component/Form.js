@@ -31,9 +31,8 @@ export const Form = () => {
         e.target.reset();
     }
     
-
     return (
-        <div className='p-5 text-center '>
+        <div className='p-4 text-center '>
             <form className='form-container' onSubmit={sendEmail}>
             <div className='mb-3 row d-flex-block '>
                 <h3 className='form-title'>Enviame tu consulta</h3>
@@ -59,10 +58,16 @@ export const Form = () => {
                     </select>
                 </label>
                 <label className='text-start  p-2'>
+                    De dónde me conoces:
+                    <input className='form-control ' type="text" name="text" placeholder='Referido/a'  onChange={handleInputChange} />
+                </label>
+                <label className='text-start  p-2'>
                     Consulta:
                     <input className='form-control ' type="textarea"  required name="text" placeholder='Consulta por servicio'  onChange={handleInputChange} />
                 </label>
-                <button type='submit'>Enviar</button>
+                <div className='text-center'>
+                <button className='btn btn-dark w-50 m-2' type='submit'>Enviar</button>
+                </div>
                 </div>
             </form>
         </div>
