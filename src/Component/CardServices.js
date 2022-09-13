@@ -16,7 +16,6 @@ export const CardServices = () => {
                 <li ><Link className='text-decoration-none' to='Services'>Protesis</Link></li>
                 <li ><Link className='text-decoration-none' to='Services'>Arreglos</Link></li>
                 <li ><Link className='text-decoration-none' to='Services'>Conductos</Link></li>
-                <li ><Link className='text-decoration-none' to='Services'>Linmpieza</Link></li>
             </ul>
         </div>
     </div>
