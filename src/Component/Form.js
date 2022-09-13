@@ -32,9 +32,9 @@ export const Form = () => {
     }
     
     return (
-        <div className='p-4 text-center '>
-            <form className='form-container' onSubmit={sendEmail}>
-            <div className='mb-3 row d-flex-block '>
+        <div className='p-4 text-center  text-light'>
+            <form className='form-container ' onSubmit={sendEmail}>
+            <div className='mb-3 row d-flex-block  bg-secondary rounded opacity-85'>
                 <h3 className='form-title'>Enviame tu consulta</h3>
                 <label className='text-start p-2'>
                     Nombre:
@@ -44,9 +44,9 @@ export const Form = () => {
                     Correo:
                     <input  className='form-control' type="email" name='email' placeholder='correo@gmail.com' required onChange={handleInputChange} />
                 </label>
-                <div id="emailHelp" className="form-text">Asegurate de escribir correctamente tu dirección de correo</div>
+                <div id="emailHelp" className="form-text text-light">Verifique su dirección de correo</div>
                 <label className='text-start  p-2'>
-                    Tel:
+                    Teléfono:
                     <input  className='form-control' type="tel"  placeholder='1122334455' name='number' required maxLength='10'  onChange={handleInputChange} />
                 </label>
                 <label className='text-start  p-2'> Asunto

@@ -13,23 +13,23 @@ export const Carrusel = () => {
   <div className="carousel-inner">
     <div className="carousel-item active">
       <img src="https://cdn.pixabay.com/photo/2018/07/10/13/30/dentist-3528684__340.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block text-dark bg-info bg-gradient bg-opacity-75">
+      <div className="carousel-caption d-md-block text-dark bg-light bg-gradient bg-opacity-80 rounded">
         <h5>Consultorio </h5>
-        <p>Experiencia en un ambiente cómodo</p>
+        <p>Experiencia en un ambiente higienizado</p>
       </div>
     </div>
     <div className="carousel-item">
       <img src="https://cdn.pixabay.com/photo/2017/07/23/10/44/dentist-2530990__340.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block text-dark bg-info bg-gradient bg-opacity-75">
+      <div className="carousel-caption  d-md-block text-dark bg-light bg-gradient bg-opacity-80 rounded">
         <h5>Experiencia</h5>
         <p>Tratamiento de los principales problemas bucales</p>
       </div>
     </div>
     <div className="carousel-item">
       <img src="https://cdn.pixabay.com/photo/2017/08/06/07/12/dentist-2589771__340.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block text-dark bg-info bg-gradient bg-opacity-75 ">
-        <h5>Asesoria</h5>
-        <p>Recomendaciones y tips para una buena higiene bucal</p>
+      <div className="carousel-caption  d-md-block text-dark bg-light bg-gradient bg-opacity-80  rounded">
+        <h5>Experiencia</h5>
+        <p>Tramientos para una buena salud bocal</p>
       </div>
     </div>
   </div>

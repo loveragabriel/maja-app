@@ -5,7 +5,7 @@ export const ProfileDescription = () => {
     <div className='p-3'>
         <h2>Maria Alejandra</h2>
         <p className=''>
-        Dr. Barnes received her Doctor of Dental Medicine degree at Case Western Reserve School of Dental Medicine, where she excelled and later became an associate clinical professor. While at Case, Dr. Barnes met her husband Steve, who is an oral and maxillofacial surgeon in the area. Together in 2012, they welcomed the arrival of their daughter Elin, and in 2013 welcomed their son, William. 
+         Tratamientos de Odontología General. Limpiezas, Protesis y disfunción cráneo-mandibular. Podrás acceder a un servicio integral y personalizado, de acuerdo al estado de tu salud bucal. Trabajo con el compromiso de lograr un buena salud dental mediante la aplicación de técnicas y tratamientos que se ajusten sus necesidades.  
         </p>
     </div>
   )

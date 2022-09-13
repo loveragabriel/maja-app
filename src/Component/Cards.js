@@ -12,8 +12,8 @@ export const Cards = () => {
     <div className="col-md-8 ">
       <div className="card-body  rounded-bottom align-middle ">
         <h5 className="card-title">Limpieza</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+        <p className="card-text">Tratamiento de limpieza que busca la eliminación de saro, placas y caries que puedan estar presenten en la zona bucal.</p>
+        <p className="card-text"><small className="text-muted">Tramiento básico 30min apróximado</small></p>
       </div>
     </div>
   </div>
@@ -26,8 +26,8 @@ export const Cards = () => {
     <div className="col-md-8">
       <div className="card-body  rounded-bottom ">
         <h5 className="card-title">Protesis</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+        <p className="card-text">Estudio y analisis para realizar tu nueva sonrisa. Protesis que se adapte a tu estilo de vida. </p>
+        <p className="card-text"><small className="text-muted">Tratamiento 3 sesiones</small></p>
       </div>
     </div>
   </div>
@@ -39,9 +39,9 @@ export const Cards = () => {
     </div>
     <div className="col-md-8">
       <div className="card-body  rounded-bottom ">
-        <h5 className="card-title">Cirugías</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+        <h5 className="card-title">Difusión Maxilo-Facial</h5>
+        <p className="card-text">Analizo las alteraciones que podrían estar causando  dolor y la difusión muscular en la mandibula, para mejorar tu estilo de vida.</p>
+        <p className="card-text"><small className="text-muted">Tratamiento en 3 sesiones</small></p>
       </div>
     </div>
   </div>
