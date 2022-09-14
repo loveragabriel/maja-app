@@ -44,7 +44,9 @@ export const About = () => {
           </div>
         </div>
       </div>
+      <Up></Up>
       <Footer></Footer>
+     
 
     </div>
   )

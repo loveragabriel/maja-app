@@ -1,7 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faBars } from '@fortawesome/free-solid-svg-icons'
-import { Menu } from './Menu';
 import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
@@ -18,11 +17,9 @@ export const NavBar = () => {
       <ul class="navbar-nav">
 
       <li className='m-3'><Link className='text-decoration-none text-light ' to='/'>Inicio</Link></li>
-        <li className='m-3'><Link className='text-decoration-none text-light' to='/Services'>Servicios</Link></li>
-        <li className='m-3'><Link className='text-decoration-none text-light' to='/About'>Sobre mi</Link></li>
-        <li className='m-3'><Link className='text-decoration-none text-light' to='/Contact'>Contacto</Link></li>
-        
-  
+        <li className='m-3'><Link className='text-decoration-none text-light' to='/Services'>Mis tratamientos</Link></li>
+        <li className='m-3'><Link className='text-decoration-none text-light' to='/About'>¿Quién soy?</Link></li>
+        <li className='m-3'><Link className='text-decoration-none text-light' to='/Contact'>Contactame</Link></li> 
       </ul>
     </div>
   </div>

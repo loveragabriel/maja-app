@@ -49,8 +49,9 @@ export const Form = () => {
                     Teléfono:
                     <input  className='form-control' type="tel"  placeholder='1122334455' name='number' required maxLength='10'  onChange={handleInputChange} />
                 </label>
-                <label className='text-start  p-2'> Asunto
+                <label className='text-start  p-2'> Asunto: 
                     <select  className='form-control' name='service' required onChange={handleInputChange}>
+                    <option value="" disabled selected hidden>Selecciona un tratamiento...</option>
                         <option>Limpieza</option>
                         <option>Protesis</option>
                         <option>Control</option>

@@ -3,7 +3,7 @@ import React from 'react'
 export const Carrusel = () => {
   return (
     <div>
-    <h2 className='text-center'>Odontología General y Maxilofacial</h2>
+    <h2 className='text-center'>Odontología General y Disfunción Craneomandibular</h2>
     <div id="carouselExampleCaptions" className="carousel slide " data-bs-ride="false">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -12,25 +12,19 @@ export const Carrusel = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="https://cdn.pixabay.com/photo/2018/07/10/13/30/dentist-3528684__340.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-md-block text-dark bg-light bg-gradient bg-opacity-80 rounded">
+      <img src="https://img.freepik.com/foto-gratis/hermosa-chica-sentada-oficina-dentista_1157-20950.jpg?w=1060&t=st=1663123032~exp=1663123632~hmac=be3db83ab29bbbd2e065755ad678ce4c4e8ac4c0fddec589bbd64d67576c398e" className="d-block w-100" alt="..."/>
+      {/* <div className="carousel-caption d-md-block text-dark bg-gradient bg-opacity-80 rounded">
         <h5>Consultorio </h5>
         <p>Experiencia en un ambiente higienizado</p>
-      </div>
+      </div> */}
     </div>
     <div className="carousel-item">
-      <img src="https://cdn.pixabay.com/photo/2017/07/23/10/44/dentist-2530990__340.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption  d-md-block text-dark bg-light bg-gradient bg-opacity-80 rounded">
-        <h5>Experiencia</h5>
-        <p>Tratamiento de los principales problemas bucales</p>
-      </div>
+      <img src="https://img.freepik.com/foto-gratis/mujer-que-usa-aparatos-ortodoncicos-invisibles-silicona_107420-74181.jpg?w=1060&t=st=1663123093~exp=1663123693~hmac=1c1b0eec801c1dc4c1fe241c25b4729a63ff939ca61fec15c406efd9d50a6b41" className="d-block w-100" alt="..."/>
+     
     </div>
     <div className="carousel-item">
-      <img src="https://cdn.pixabay.com/photo/2017/08/06/07/12/dentist-2589771__340.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption  d-md-block text-dark bg-light bg-gradient bg-opacity-80  rounded">
-        <h5>Experiencia</h5>
-        <p>Tramientos para una buena salud bocal</p>
-      </div>
+      <img src="https://img.freepik.com/foto-gratis/dentista-examinando-paciente-herramientas_107420-65429.jpg?w=1060&t=st=1663123158~exp=1663123758~hmac=5faaa5da5102aedee0bd3e6b99764959e054d43eeecd41cf1f9ab8e410e535a1" className="d-block w-100" alt="..."/>
+    
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
