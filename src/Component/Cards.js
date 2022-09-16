@@ -5,7 +5,7 @@ export const Cards = () => {
   return (
     <div className='d-wrap '>
       <div className="card  m-3 ">
-  <div className="row g-0  shadow-lg p-3  rounded">
+  <div className="row g-0  shadow-lg p-3 bg-dark  rounded">
     <div className="col-md-4">
       <img src="https://cdn.pixabay.com/photo/2018/07/10/13/30/dentist-3528684__340.jpg" className="img-fluid rounded-top w-100" alt="..."/>
     </div>
@@ -19,7 +19,7 @@ export const Cards = () => {
   </div>
 </div>
  <div className="card  m-3 ">
-  <div className="row g-0  shadow-lg p-3 bg-body rounded">
+  <div className="row g-0  shadow-lg p-3 bg-dark  rounded">
     <div className="col-md-4">
       <img src="https://cdn.pixabay.com/photo/2018/07/10/13/30/dentist-3528684__340.jpg" className="img-fluid rounded-top w-100" alt="..."/>
     </div>
@@ -33,7 +33,7 @@ export const Cards = () => {
   </div>
 </div>
  <div className="card m-3" >
-  <div className="row g-0  shadow-lg p-3 bg-body rounded">
+  <div className="row g-0  shadow-lg p-3 bg-dark  rounded">
     <div className="col-md-4">
       <img src="https://cdn.pixabay.com/photo/2018/07/10/13/30/dentist-3528684__340.jpg" className="img-fluid rounded-top w-100" alt="..."/>
     </div>

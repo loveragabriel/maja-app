@@ -1,4 +1,4 @@
-import '/node_modules/bootstrap/dist/css/bootstrap.css'
+import '/home/loveragabriel/dramaja/maja-app/src/App.css'
 import { Home } from './Pages/Home';
 import { Services } from './Pages/Services';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -7,7 +7,7 @@ import { About } from './Pages/About';
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-dark text-white ">
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>} />

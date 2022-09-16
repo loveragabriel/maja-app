@@ -27,7 +27,7 @@ export const About = () => {
 
 
       <NavBar></NavBar>
-      <div className="container pt-3">
+      <div className="container pt-3 position-relative opacity-100">
         <div className="text-center p-0  card border-light bg-secondary rounded  mh-100">
           <div className="profile-cover rounded-top "
             style={{ backgroundImage: `url("https://cdn.pixabay.com/photo/2017/10/21/23/42/globus-2876182_960_720.jpg")` }}>

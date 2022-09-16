@@ -3,11 +3,14 @@
     padding: 0;
 }
 
-/* 
+ 
 body {
-    background-color: var(--main-bg-color);
+    opacity: 0.95;
+    background-image: url(https://img.freepik.com/free-photo/dentist-with-smile_144627-886.jpg?w=1060&t=st=1663289150~exp=1663289750~hmac=e7157ddeb7339a431671782a1de5fa2719046bdf86e80f3e96cb0b3382bff651) ;
+    position: absolute;   
 }
 
+/*
 :root {
     --main-bg-color: #191919;
 }

@@ -9,6 +9,9 @@ export const PrincipalImg = () => {
         <div className=''>
 
              <div className='description-text'>
+             <div>
+             <hr  className='bg-light'/>
+             </div>
             <p>
             La Odontología General (Operatoria o Restauradora) es la encargada de solucionar los problemas primarios que tienen que ver con la boca, dientes y otras estructuras relacionadas. Representa en la mayoría de los casos el contacto inicial del paciente con el profesional de la Odontología.
             </p>
