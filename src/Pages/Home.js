@@ -16,7 +16,6 @@ export const Home = () => {
         <CardServices></CardServices>
         <Footer></Footer>
         <Up></Up>
-        
     </div>
   )
 }

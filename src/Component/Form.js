@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import emailjs from '@emailjs/browser';
 import { Up } from './Up';
 
-// agragar de donde me conoces 
 export const Form = () => {
     const [formData, SetFormData] = useState({
         name: '',
@@ -17,11 +16,7 @@ export const Form = () => {
             ...formData,
             [e.target.name]: e.target.value
         })
-
-
-
     }
-
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_thbluz2', 'template_6y201bt', e.target, 'rMXRUT4nOtufEUTg2')
@@ -30,7 +25,6 @@ export const Form = () => {
         alert('Consulta enviada correctamente')
         e.target.reset();
     }
-
     return (
         <div className='p-4 text-center  text-light'>
             <form className='form-container ' onSubmit={sendEmail}>
@@ -71,6 +65,7 @@ export const Form = () => {
                     </div>
                 </div>
             </form>
+            <Up></Up>
         </div>
     )
 }
