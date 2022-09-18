@@ -2,13 +2,14 @@ import React from 'react'
 import { NavBar } from '../Component/NavBar'
 import { Up } from '../Component/Up'
 import { Link } from 'react-router-dom'
-import maja2 from '../Multimedia/maja1.png'
+import maja2 from '../Multimedia/maja2.png'
+import { PageTitles } from '../Component/PageTitles'
 
 export const About = () => {
   return (
     <div className='about'>
       <NavBar></NavBar>
-      <h3 className='text-center m-4'>Sobre mi</h3>
+      <PageTitles title='Sobre Mi'/>
       <div className="container pt-3 position-relative opacity-100">
         <div className="text-center p-10  card border-light opacity-80 rounded  mh-100">
           <div className="profile-cover rounded-top "

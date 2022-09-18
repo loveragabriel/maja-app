@@ -1,5 +1,5 @@
 import React from 'react'
-import maja from '../Multimedia/maja2.png'
+import maja from '../Multimedia/maja1.png'
 
 
 export const Profile = () => {

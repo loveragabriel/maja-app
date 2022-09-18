@@ -8,9 +8,9 @@ export const CardServices = () => {
         <div className=' text-center'>
         <hr></hr>
             <div>
-                <h3 className='fs-2'>Tratamientos</h3>
+                <h3 className='text-center mb-4 fs-2'>Tratamientos</h3>
             </div>
-            <ul className='list-group list-unstyled'>
+            <ul className='list-group list-unstyled tex-list'>
                 <li ><Link className='text-decoration-none text-warning'  to='Services'>Limpieza</Link></li>
                 <li ><Link className='text-decoration-none text-warning' to='Services'>Protesis</Link></li>
                 <li ><Link className='text-decoration-none text-warning' to='Services'>Arreglos</Link></li>

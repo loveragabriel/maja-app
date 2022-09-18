@@ -5,7 +5,7 @@ export const ProfileDescription = () => {
     <div className='p-3 description'>
       {/* <h2 className='text-center text-light'>Maria Alejandra</h2> */}
       <p className='text-spacing'>
-        Tratamientos de Odontología General. Limpiezas, Protesis y disfunción cráneo-mandibular. Podrás acceder a un servicio integral y personalizado, de acuerdo al estado de tu salud bucal. Trabajo con el compromiso de lograr un buena salud dental mediante la aplicación de técnicas y tratamientos que se ajusten sus necesidades.
+        Tratamientos de Odontología General con especialización en Disfunción Creneo-Mandibular. Los tratamientos aplicados buscan mejorar la calidad de vida de mis pacientes, mediante una atención personalizada de acuerdo a sus necesidades. Te muestro como a través de una buena salud bucal puedes comenzar a mejorar otros aspectos de tu vida. 
       </p>
       <hr></hr>
     </div>

@@ -3,12 +3,13 @@ import { NavBar } from '../Component/NavBar'
 import { Up } from '../Component/Up'
 import { Cards } from '../Component/Cards'
 import { Footer } from '../Component/Footer'
+import { PageTitles } from '../Component/PageTitles'
 
 export const Services = () => {
   return (
     <div>
     <NavBar></NavBar>
-    <h3 className='text-center m-4 h-100'>Tratamientos</h3>
+      <PageTitles title='Tratamientos'/>
         <Cards></Cards>
         <Up></Up>
         <Footer></Footer>
