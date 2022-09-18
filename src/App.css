@@ -8,11 +8,13 @@
 
  a, h1, h2, h3,h4,h5{
     font-family: 'Lora', serif;
+    letter-spacing: 1px;
  }
 
  li{
     font-family: 'Lora', serif;
     margin: 5px;
+    letter-spacing: 3px;
  }
 
 p{
@@ -32,8 +34,6 @@ p{
    }
    h1,h2,h3,h4,h5{
       font-size: 2em;
-   }
-   form{
       max-width: 50vw;
       margin: 0% auto;
    }
@@ -41,3 +41,18 @@ p{
  .copy-right{
    font-size: 0.5em;
  }
+
+ .text-spacing{
+   letter-spacing:1.5px;
+   line-height: 2em;
+   font-weight: 500;
+ }
+ .about-text{
+   padding: 2em;
+   line-height: 2em;
+   font-weight: 800;
+ }
+
+ 
+
+ 

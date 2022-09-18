@@ -6,7 +6,7 @@ export const NavBar = () => {
     <div>
       <nav class="navbar navbar-expand-lg bg-dark  d-lg-block">
         <div class="container-fluid">
-          <Link className='text-decoration-none text-white ' to='/'>Dra. Maria Alejandra </Link>
+          <Link className='text-decoration-none text-white fs-3' to='/'>Od. Maria Alejandra Tinedo </Link>
           <button class="navbar-toggler fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "></span>
           </button>
