@@ -27,7 +27,7 @@ export const Form = () => {
     }
     return (
         <div className='p-4 text-center  text-light'>
-            <form className='form-container ' onSubmit={sendEmail}>
+            <form className='form-container' onSubmit={sendEmail}>
                 <div className='mb-3 row d-flex-block  bg-secondary rounded opacity-85'>
                     <h3 className='form-title'>Enviame tu consulta</h3>
                     <label className='text-start p-2'>

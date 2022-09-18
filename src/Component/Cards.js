@@ -1,9 +1,9 @@
 import React from 'react'
-
 export const Cards = () => {
 
   return (
-    <div className='d-wrap '>
+    <div className='bg-dark'>
+    <div className='d-wrap  '>
       <div className="card  m-3 ">
         <div className="row g-0  shadow-lg p-3 bg-dark  rounded">
           <div className="col-md-4">
@@ -46,6 +46,7 @@ export const Cards = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }
