@@ -19,7 +19,7 @@ export const Carrusel = () => {
       </div> */}
     </div>
     <div className="carousel-item">
-      <img src="https://img.freepik.com/foto-gratis/mujer-que-usa-aparatos-ortodoncicos-invisibles-silicona_107420-74181.jpg?w=1060&t=st=1663123093~exp=1663123693~hmac=1c1b0eec801c1dc4c1fe241c25b4729a63ff939ca61fec15c406efd9d50a6b41" className="d-block w-100" alt="..."/>
+      <img src="https://img.freepik.com/free-photo/frustrated-unhappy-woman-suffering-from-toothache_74855-3450.jpg?w=1060&t=st=1663511610~exp=1663512210~hmac=d280068510abfef869f600ae5316cdac23c8b367061c9c65c7d19c54d9e88d10" className="d-block w-100" alt="..."/>
      
     </div>
     <div className="carousel-item">

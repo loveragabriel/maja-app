@@ -7,7 +7,7 @@ export const Cards = () => {
       <div className="card  m-3 ">
         <div className="row g-0  shadow-lg p-3 bg-dark  rounded">
           <div className="col-md-4">
-            <img src="https://cdn.pixabay.com/photo/2018/07/10/13/30/dentist-3528684__340.jpg" className="img-fluid rounded-top w-100" alt="..." />
+            <img src="https://cdn.pixabay.com/photo/2014/03/14/16/56/orthodontist-287285_960_720.jpg" className="img-fluid rounded w-100" alt="..." />
           </div>
           <div className="col-md-8 ">
             <div className="card-body  rounded-bottom align-middle ">
@@ -21,7 +21,7 @@ export const Cards = () => {
       <div className="card  m-3 ">
         <div className="row g-0  shadow-lg p-3 bg-dark  rounded">
           <div className="col-md-4">
-            <img src="https://cdn.pixabay.com/photo/2018/07/10/13/30/dentist-3528684__340.jpg" className="img-fluid rounded-top w-100" alt="..." />
+            <img src="https://images.unsplash.com/photo-1612283105859-6e2585710acd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1224&q=80" className="img-fluid rounded w-100" alt="..." />
           </div>
           <div className="col-md-8">
             <div className="card-body  rounded-bottom ">
@@ -35,7 +35,7 @@ export const Cards = () => {
       <div className="card m-3" >
         <div className="row g-0  shadow-lg p-3 bg-dark  rounded">
           <div className="col-md-4">
-            <img src="https://cdn.pixabay.com/photo/2018/07/10/13/30/dentist-3528684__340.jpg" className="img-fluid rounded-top w-100" alt="..." />
+            <img src="https://img.freepik.com/free-photo/dentistry-healthy-lifestyle-illness-concept-portrait-stressed-young-female-suffering-from-severe-pain-holding-hand-her-cheek-closing-eyes-having-bad-tooth-ache-while-pills-work_343059-1430.jpg?w=1060&t=st=1663511476~exp=1663512076~hmac=1364fb0958881c636cad6356bd29af48567a71669ae3fc5bee2335f1cf51cc40" className="img-fluid rounded w-100" alt="..." />
           </div>
           <div className="col-md-8">
             <div className="card-body  rounded-bottom ">

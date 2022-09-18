@@ -7,7 +7,7 @@ import { About } from './Pages/About';
 
 function App() {
   return (
-    <div className="bg-dark text-white ">
+    <div className="bg-dark text-white  app">
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>} />
