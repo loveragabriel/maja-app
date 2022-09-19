@@ -16,12 +16,12 @@ export const About = () => {
             style={{ backgroundImage: `url("https://cdn.pixabay.com/photo/2017/10/21/23/42/globus-2876182_960_720.jpg")` }}>
           </div>
           <div className="pb-5 card-body text-dark">
-            <img className="card-img user-avatar large-avatar rounded-circle mx-auto mt-n7 mb-4 w-50" src={maja2} alt="Neil Portrait" />
-            <div className="card-title h1 mb-2 3">Maria Alejandra Tinedo</div>
-            <div className="fw-normal card-subtitle h3">Odontología General y Craneo-Mandibular</div>
-            <p className="text-gray mb-4 card-text h4">Buenos Aires, Argentina</p>
-            <p className='text-spacing fs-5 about-text'>
-              Odontologa egresada de la Universidad Central de Venezuela. Mi primeros años de carreras los desempeñé realizando trabajos de asistencias y atención en la Ciudad de Buenos Aires. Matriculada para ejercer en la Ciudad Autonoma de Buenos Aires, vengo realizando tratamientos de Odontología General para mejorar la salud bucal de mis pacientes.
+            <img className="card-img user-avatar large-avatar rounded-circle mx-auto mt-n7 mb-4 w-70" src={maja2} alt="Neil Portrait" />
+            <div className="card-title h1 mb-2 3">María Alejandra Tineo</div>
+            <div className="fw-normal card-subtitle font-weight-bold">Odontología General y Disfunción Cráneo-Mandibular</div>
+            <p className="text-gray mb-4 card-text">Buenos Aires, Argentina</p>
+            <p className='text-spacing fs-6 about-text'>
+              Odontóloga egresada de la Universidad Central de Venezuela con título convalidado en la universidad de La Plata. Me enfoco es atención integral para pacientes en tratamientos como limpieza, arreglos de caries, prótesis y tratamiento de disfunción cráneo-mandibular. 
             </p>
             <Link to='/Contact'><button type="button" className="btn btn-dark w-50 m-2">Contacto</button></Link>
           </div>

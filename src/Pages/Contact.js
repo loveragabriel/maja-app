@@ -8,7 +8,7 @@ export const Contact = () => {
   return (
     <div className='m-0 p-0'>
     <NavBar></NavBar>
-    <PageTitles title='Enviame tu Consulta'/>
+    <PageTitles title='Envíame tu Consulta'/>
     <Form></Form>
     <Up></Up>
     </div>

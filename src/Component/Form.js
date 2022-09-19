@@ -26,38 +26,38 @@ export const Form = () => {
         e.target.reset();
     }
     return (
-        <div className='p-4 text-center  text-light'>
-            <form className='form-container' onSubmit={sendEmail}>
-                <div className='mb-3 row d-flex-block  bg-secondary rounded opacity-85'>
-                    <label className='text-start p-2'>
+        <div className='p-4 text-center  text-dark '>
+            <form className='form-container ' onSubmit={sendEmail}>
+                <div className='mb-3 row d-flex-block  bg-light rounded opacity-85 form-cont'>
+                    <label className='text-start p-2 text-dark'>
                         Nombre:
-                        <input className='form-control' type="text" name='name' placeholder='Maria Alejandra' required onChange={handleInputChange} />
+                        <input className='' type="text" name='name' placeholder='Maria Alejandra' required onChange={handleInputChange} />
                     </label>
                     <label className='text-start  p-2'>
                         Correo:
-                        <input className='form-control' type="email" name='email' placeholder='correo@gmail.com' required onChange={handleInputChange} />
+                        <input className='' type="email" name='email' placeholder='correo@gmail.com' required onChange={handleInputChange} />
                     </label>
-                    <div id="emailHelp" className="form-text text-light">Verifique su dirección de correo</div>
+                    <div id="emailHelp" className="form-text">Verifique su dirección de correo</div>
                     <label className='text-start  p-2'>
                         Teléfono:
-                        <input className='form-control' type="tel" placeholder='1122334455' name='number' required maxLength='10' onChange={handleInputChange} />
+                        <input className='border-none' type="tel" placeholder='1122334455' name='number' required maxLength='10' onChange={handleInputChange} />
                     </label>
                     <label className='text-start  p-2'> Asunto:
-                        <select className='form-control' name='service' required onChange={handleInputChange}>
+                        <select className='' name='service' required onChange={handleInputChange}>
                             <option value="" disabled selected hidden>Selecciona un tratamiento...</option>
                             <option>Limpieza</option>
-                            <option>Protesis</option>
-                            <option>Control</option>
-                            <option>Placa</option>
+                            <option>Prótesis</option>
+                            <option>Arreglos</option>
+                            <option>Placas Miorrelajantes</option>
                         </select>
                     </label>
                     <label className='text-start  p-2'>
                         De dónde me conoces:
-                        <input className='form-control ' type="text" name="text" placeholder='Referido/a' onChange={handleInputChange} />
+                        <input className=' ' type="text" name="text" placeholder='Referido/a' onChange={handleInputChange} />
                     </label>
                     <label form='' className='text-start  p-2 '>
                         Consulta:
-                        <textarea className='form-control text-area ' type="textarea" rows={5} cols={5} required name="text" placeholder='Consulta por servicio' onChange={handleInputChange} />
+                        <textarea className=' text-area ' type="textarea" rows={5} cols={5} required name="text" placeholder='Consulta por servicio' onChange={handleInputChange} />
                     </label>
                     <div className='text-center'>
                         <button className='btn btn-dark w-50 m-2' type='submit'>Enviar</button>
