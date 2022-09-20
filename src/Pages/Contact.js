@@ -7,10 +7,10 @@ import { PageTitles } from '../Component/PageTitles'
 export const Contact = () => {
   return (
     <div className='m-0 p-0'>
-    <NavBar></NavBar>
-    <PageTitles title='Envíame tu Consulta'/>
-    <Form></Form>
-    <Up></Up>
+      <NavBar></NavBar>
+      <PageTitles title='Envíame tu Consulta'/>
+      <Form></Form>
+      <Up></Up>
     </div>
   )
 }

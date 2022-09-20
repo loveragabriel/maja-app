@@ -31,7 +31,7 @@ export const Form = () => {
                 <div className='mb-3 row d-flex-block  bg-light rounded opacity-85 form-cont'>
                     <label className='text-start p-2 text-dark'>
                         Nombre:
-                        <input className='' type="text" name='name' placeholder='Maria Alejandra' required onChange={handleInputChange} />
+                        <input className='' type="text" name='name' placeholder='María Alejandra' required onChange={handleInputChange} />
                     </label>
                     <label className='text-start  p-2'>
                         Correo:

@@ -8,11 +8,11 @@ import { PageTitles } from '../Component/PageTitles'
 export const Services = () => {
   return (
     <div>
-    <NavBar></NavBar>
-      <PageTitles title='Tratamientos'/>
-        <Cards></Cards>
-        <Up></Up>
-        <Footer></Footer>
+      <NavBar></NavBar>
+      <PageTitles title='Tratamientos' />
+      <Cards></Cards>
+      <Up></Up>
+      <Footer></Footer>
     </div>
   )
 }

@@ -9,13 +9,13 @@ import { Carrusel } from '../Component/Carrusel'
 export const Home = () => {
   return (
     <div>
-  <NavBar></NavBar>
-        <Profile></Profile>
-        <ProfileDescription></ProfileDescription>
-        <Carrusel></Carrusel>
-        <CardServices></CardServices>
-        <Footer></Footer>
-        <Up></Up>
+      <NavBar></NavBar>
+      <Profile></Profile>
+      <ProfileDescription></ProfileDescription>
+      <Carrusel></Carrusel>
+      <CardServices></CardServices>
+      <Footer></Footer>
+      <Up></Up>
     </div>
   )
 }
