@@ -1,6 +1,6 @@
 import '/home/loveragabriel/dramaja/maja-app/src/App.css'
 import { Home } from './Pages/Home';
-import { Services } from './Pages/Services';
+import { Treatments } from './Pages/Treatments';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Contact } from './Pages/Contact';
 import { About } from './Pages/About';
@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/Services' element={<Services/>}/>
+          <Route path='/Treatments' element={<Treatments/>}/>
           <Route path='/About' element={<About/>}/>
           <Route path='/Contact' element={<Contact/>}/>
         </Routes>

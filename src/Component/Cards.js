@@ -19,6 +19,22 @@ export const Cards = () => {
             </div>
           </div>
         </div>
+        <div className="card m-3" >
+          <div className="row g-0  shadow-lg p-3 bg-dark  rounded">
+            <div className="col-md-4">
+              <img src="https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" className="img-fluid rounded w-90" alt="chica sonriendo " />
+            </div>
+            <div className="col-md-8">
+              <div className="card-body  rounded-bottom ">
+                <h5 className="card-title">Caries</h5>
+                <p className="card-text">
+                  El tratamiento busca tratar la eliminación del tejido dental afectado y posteriormente realizar una restauración o rehabilitación del diente, si es posible, para mantener todas las piezas dentales. 
+                </p>
+                <p className="card-text "><small className="text-warning ">Flúor, Empaste Dental, Coronas Dentales, Endodoncia.</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="card  m-3 ">
           <div className="row g-0  shadow-lg p-3 bg-dark  rounded">
             <div className="col-md-4">

@@ -45,9 +45,10 @@ export const Form = () => {
                     <label className='text-start  p-2'> Asunto:
                         <select className='' name='service' required onChange={handleInputChange}>
                             <option value="" disabled selected hidden>Selecciona un tratamiento...</option>
+                            <option>Arreglos</option>
+                            <option>Caries</option>
                             <option>Limpieza</option>
                             <option>Prótesis</option>
-                            <option>Arreglos</option>
                             <option>Placas Miorrelajantes</option>
                         </select>
                     </label>
@@ -57,7 +58,7 @@ export const Form = () => {
                     </label>
                     <label form='' className='text-start  p-2 '>
                         Consulta:
-                        <textarea className=' text-area ' type="textarea" rows={5} cols={5} required name="text" placeholder='Consulta por servicio' onChange={handleInputChange} />
+                        <textarea className=' text-area ' type="textarea" rows={5} cols={5} required name="text" placeholder='Consulta por un Tratamiento' onChange={handleInputChange} />
                     </label>
                     <div className='text-center'>
                         <button className='btn btn-dark w-50 m-2' type='submit'>Enviar</button>

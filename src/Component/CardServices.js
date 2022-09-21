@@ -11,10 +11,11 @@ export const CardServices = () => {
           <h2 className='text-center mb-4 fs-2'>Tratamientos</h2>
         </div>
         <ul className='list-group list-unstyled tex-list'>
-          <li ><Link className='text-decoration-none text-warning' to='Services'>Limpieza</Link></li>
-          <li ><Link className='text-decoration-none text-warning' to='Services'>Prótesis</Link></li>
-          <li ><Link className='text-decoration-none text-warning' to='Services'>Arreglos</Link></li>
-          <li ><Link className='text-decoration-none text-warning' to='Services'>Placas Miorrelajantes</Link></li>
+          <li ><Link className='text-decoration-none text-warning' to='Treatments'>Arreglos</Link></li>
+          <li ><Link className='text-decoration-none text-warning' to='Treatments'>Caries</Link></li>
+          <li ><Link className='text-decoration-none text-warning' to='Treatments'>Limpieza</Link></li>
+          <li ><Link className='text-decoration-none text-warning' to='Treatments'>Prótesis</Link></li>
+          <li ><Link className='text-decoration-none text-warning' to='Treatments'>Placas Miorrelajantes</Link></li>
         </ul>
       </div>
     </div>

@@ -14,7 +14,7 @@ export const NavBar = () => {
             <ul class="navbar-nav">
               <hr></hr>
               <li className='m-3'><Link className='text-decoration-none text-light ' to='/'>Inicio</Link></li>
-              <li className='m-3'><Link className='text-decoration-none text-light' to='/Services'>Tratamientos</Link></li>
+              <li className='m-3'><Link className='text-decoration-none text-light' to='/Treatments'>Tratamientos</Link></li>
               <li className='m-3'><Link className='text-decoration-none text-light' to='/About'>¿Quién soy?</Link></li>
               <li className='m-3'><Link className='text-decoration-none text-light' to='/Contact'>Contactame</Link></li>
             </ul>

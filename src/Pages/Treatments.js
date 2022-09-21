@@ -5,7 +5,7 @@ import { Cards } from '../Component/Cards'
 import { Footer } from '../Component/Footer'
 import { PageTitles } from '../Component/PageTitles'
 
-export const Services = () => {
+export const Treatments = () => {
   return (
     <div>
       <NavBar></NavBar>

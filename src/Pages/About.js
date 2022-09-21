@@ -21,7 +21,7 @@ export const About = () => {
             <div className="fw-normal card-subtitle font-weight-bold">Odontología General y Disfunción Cráneo-Mandibular</div>
             <p className="text-gray mb-4 card-text">Buenos Aires, Argentina</p>
             <p className='text-spacing fs-6 about-text'>
-              Odontóloga egresada de la Universidad Central de Venezuela con título convalidado en la universidad de La Plata. Me enfoco es atención integral para pacientes en tratamientos como limpieza, arreglos de caries, prótesis y tratamiento de disfunción cráneo-mandibular.
+              Odontóloga egresada de la Universidad Central de Venezuela con título convalidado en la universidad de La Plata. Me enfoco en una atención integral a mis pacientes en tratamientos como limpieza, arreglos de caries, prótesis y tratamiento de disfunción cráneo-mandibular.
             </p>
             <Link to='/Contact'><button type="button" className="btn btn-dark w-50 m-2">Contacto</button></Link>
           </div>
