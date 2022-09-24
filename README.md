@@ -1,7 +1,7 @@
 # Página Web para María Alejandra Tineo
 Página web creada para la Odontológa María Alejandra Tineo. La página está creada con la React y Bootstrap.
 ## Tabla de Contenido
-* [Información General](#Página web con React)
+* [Información General](#Página-web-con-React)
 * [Tecnologías](#Tecnologías)
 * [Página](#site)
 
