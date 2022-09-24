@@ -105,6 +105,25 @@ p{
    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;  
  }
 
+ .pop-up{
+   position: absolute;
+   top: 20%;
+   font-size: 90%;
+   z-index: 2;
+   background-color: black;
+   border-radius: 5px;
+   padding: 5px;
+   margin: auto 30vw;
+   text-align: center;
+   border: solid 0.1px #ffc107;
+ }
+ .pop-up-btn{
+   background-color: #212529;
+   color: white;
+   margin: 0 auto ;
+   font-size: 90%;
+ }
+
 
 
 
