@@ -11,7 +11,7 @@ Página web creada para la Odontológa María Alejandra Tineo. La página está 
 ## Tecnologías
 Este projecto está creado con: 
 * React - La utilización de componentes para estructurar la página resulta sencillo y facilita el proceso de formación de la página.  
-* Bootstrap - fUtilicé boostrap para darle diseño y un poco de dinamismo a la página. 
+* Bootstrap - Utilicé boostrap a través de DNS para darle diseño y un poco de dinamismo a la página. 
 * Css - Aunque la mayor parte del estilo está creado con Bootstrap. También hay un archivo ccs para customizar algunos diseño más personales de la pagina. 
 	
 ## Site
